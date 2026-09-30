@@ -1,0 +1,46 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Compagnon Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Bienvenue
+      path: compagnon-docs
+      description: ""
+      icon: memo-pad
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Docs
+          path: docs
+          default: true
+          content:
+            directory: ./compagnon-docs/docs
+    - type: section
+      key: section-2
+      title: Mises à jours
+      path: mises-a-jours
+      icon: user-check
+      children:
+        - type: space
+          key: space-2
+          title: Mises à jours
+          path: changelog
+          default: true
+          content:
+            directory: ./mises-a-jours/changelog
+    - type: section
+      key: section-3
+      title: Aide et information
+      path: aide
+      description: ""
+      icon: code
+      children:
+        - type: space
+          key: space-3
+          title: Aide et information
+          path: untitled
+          default: true
+          content:
+            directory: ./aide/untitled

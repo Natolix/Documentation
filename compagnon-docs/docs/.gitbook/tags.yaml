@@ -1,0 +1,8 @@
+- tag: page-a-jour
+  label: Page à jour
+  icon: square-check
+  color: $success
+- tag: page-legale
+  label: Page légale
+  icon: scale-balanced
+  color: blue

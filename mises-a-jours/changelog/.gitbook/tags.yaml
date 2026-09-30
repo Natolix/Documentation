@@ -1,0 +1,15 @@
+- tag: version-terminee
+  label: Version terminée
+  icon: square-check
+  color: green
+- tag: dev
+  label: Version en développement
+  icon: clock-three
+  color: orange
+- tag: inconnu
+  label: Version inconnu
+  icon: window
+- tag: undefined
+  label: Version récente
+  icon: rotate
+  color: green
